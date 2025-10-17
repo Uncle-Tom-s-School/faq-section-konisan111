@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is Frontend Mentor, and how will it help me?",
+    "answer": "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript."
+  },
+  {
+    "question": "Is Frontend Mentor free?",
+    "answer": "Yes, it offers both free and premium challenges."
+  },
+  {
+    "question": "Can I use Frontend Mentor projects in my portfolio?",
+    "answer": "Absolutely! It’s encouraged to showcase your work."
+  },
+  {
+    "question": "How can I get help if I’m stuck on a challenge?",
+    "answer": "You can ask in the community or check the solutions tab."
+  },
+  {
+    "question": "Tudod hogy miért szeretem a tejet?",
+    "answer": "1, mert kérdezted 2, mert finom 3, vannak benne vitaminok"
+  }
+]

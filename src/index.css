@@ -1,9 +1,38 @@
-:root{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: red;  Csak debuggolásra van itt mert egy szerencsétlen vagyok az svg pathel*/
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url('./assets/images/background-pattern-desktop.svg'); /* Valahogy most már megy xd */
+}
+
+/* Mobilos és Gépes nézet */
+@media all and (max-width: 375px) {
+    body {
+        /* A képnek a felbontása miatt lett ilyen kicsi a határérték */
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+        padding: 1em;
+      }
+}
+@media all and (min-width: 376px) {
+    body {
+        background-image: url(./assets/images/background-pattern-desktop.svg);
+        padding: 1em;
+      }
+}
+@media all and (min-width: 606px) {
+    body { padding: 0em; }
 }

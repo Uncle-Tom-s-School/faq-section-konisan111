@@ -1,8 +1,11 @@
+import FAQ from "./components/FAQ";
+
 const App = () => {
   return (
-    <main>
+    <main className="background-top">
+      <FAQ />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
